@@ -168,14 +168,14 @@ public class HEAD implements java.io.Serializable {
         org.exolab.castor.xml.Validator validator = new org.exolab.castor.xml.Validator();
         validator.validate(this);
     } //-- void validate() 
-	public String toXMLString() {
-		try {
-			StringWriter out = new StringWriter();
-			this.marshal(out);
-			return out.toString();
-		} catch (Exception ex) {
+    public String toXMLString(){
+		try{
+	    	StringWriter out = new StringWriter();
+	    	this.marshal(out);
+			return out.toString(); 
+		}catch(Exception ex){
 			ex.printStackTrace();
 			return "";
-		}
-	}
+		}		
+    }    
 }
