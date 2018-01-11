@@ -16,7 +16,7 @@ public class APIClient {
 			//String xml = "<HEAD><busiCode>C00001</busiCode><requestor>AIP</requestor><svcContent>包体内容</svcContent></HEAD>";
 			
 			HEAD head=new HEAD();
-			head.setBusiCode("C000000000000000000000000000000000001");
+			head.setBusiCode("C0001");
 			head.setRequestor("guoya");
 
 			Request request=new Request();
